@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObject xmlns="http://soap.sforce.com/2006/04/metadata">
+    <customSettingsType>Hierarchy</customSettingsType>
+    <enableFeeds>false</enableFeeds>
+    <fields>
+        <fullName>AfterTriggersOn__c</fullName>
+        <defaultValue>true</defaultValue>
+        <description>Turn on ALL after triggers</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Turn on ALL after triggers</inlineHelpText>
+        <label>After Triggers On</label>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>BeforeTriggersOn__c</fullName>
+        <defaultValue>true</defaultValue>
+        <description>Turn on ALL before triggers</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Turn on ALL before triggers</inlineHelpText>
+        <label>Before Triggers On</label>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>DebugOn__c</fullName>
+        <defaultValue>true</defaultValue>
+        <description>Turn on debugging</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Turn on debugging</inlineHelpText>
+        <label>Debug On</label>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>DeleteTriggersOn__c</fullName>
+        <defaultValue>true</defaultValue>
+        <description>Turn on ALL delete triggers</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Turn on ALL delete triggers</inlineHelpText>
+        <label>Delete Triggers On</label>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>InsertTriggersOn__c</fullName>
+        <defaultValue>true</defaultValue>
+        <description>Turn on ALL insert triggers</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Turn on ALL insert triggers</inlineHelpText>
+        <label>Insert Triggers On</label>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>ProcessBuilderOn__c</fullName>
+        <defaultValue>true</defaultValue>
+        <description>Turn on ALL process builder processes</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Turn on ALL process builder processes</inlineHelpText>
+        <label>Process Builder On</label>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>TriggerSwitchOn__c</fullName>
+        <defaultValue>true</defaultValue>
+        <description>Turn on Trigger Switch functionality</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Turn on Trigger Switch functionality</inlineHelpText>
+        <label>Trigger Switch Custom Setting On</label>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>TurnAllTriggersOff__c</fullName>
+        <defaultValue>false</defaultValue>
+        <description>This will turn off ALL triggers and will supercede Trigger Switch settings</description>
+        <externalId>false</externalId>
+        <inlineHelpText>This will turn off ALL triggers and will supercede Trigger Switch settings</inlineHelpText>
+        <label>Turn All Triggers Off</label>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>UndeleteTriggersOn__c</fullName>
+        <defaultValue>true</defaultValue>
+        <description>Turn on ALL undelete triggers</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Turn on ALL undelete triggers</inlineHelpText>
+        <label>Undelete Triggers On</label>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>UpdateTriggersOn__c</fullName>
+        <defaultValue>true</defaultValue>
+        <description>Turn on ALL update triggers</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Turn on ALL update triggers</inlineHelpText>
+        <label>Update Triggers On</label>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>ValidationRulesOn__c</fullName>
+        <defaultValue>true</defaultValue>
+        <description>Turn on ALL validation rules</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Turn on ALL validation rules</inlineHelpText>
+        <label>Validation Rules On</label>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>WorkflowsOn__c</fullName>
+        <defaultValue>true</defaultValue>
+        <description>Turn on ALL workflows</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Turn on ALL workflows</inlineHelpText>
+        <label>Workflows On</label>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <label>Org Admin Settings</label>
+    <visibility>Protected</visibility>
+</CustomObject>
